@@ -107,11 +107,13 @@ section{
 }
 
 /* home page contact styling */
-.home-content{
-    text-align: center;
-    justify-content: center;
-    margin-top: 24px;
-
+.home-content {
+    display: flex;                
+    flex-direction: column;      
+    align-items: center;          
+    justify-content: center; 
+    text-align: center; 
+    margin-top: 10rem;                        
 }
 .home-content h6{   
 font-size: 3rem;
